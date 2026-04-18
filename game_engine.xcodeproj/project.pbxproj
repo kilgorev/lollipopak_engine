@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC519C8D2F35B6F3000555D8 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC519C8C2F35B6F3000555D8 /* SDL2.framework */; };
+		EC519C8E2F35B6F3000555D8 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC519C8C2F35B6F3000555D8 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC519C912F35B707000555D8 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC519C902F35B707000555D8 /* SDL2_image.framework */; };
+		EC519C922F35B707000555D8 /* SDL2_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC519C902F35B707000555D8 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC519C942F35B715000555D8 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC519C932F35B715000555D8 /* SDL2_mixer.framework */; };
+		EC519C952F35B715000555D8 /* SDL2_mixer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC519C932F35B715000555D8 /* SDL2_mixer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC519C972F35B727000555D8 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC519C962F35B727000555D8 /* SDL2_ttf.framework */; };
+		EC519C982F35B727000555D8 /* SDL2_ttf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC519C962F35B727000555D8 /* SDL2_ttf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ECA30B422F4FF8C800D02731 /* game_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECFEAD682F2861E400EEFDD8 /* game_engine.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC4C1F992F1F0816002D4633 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EC519C8F2F35B6F3000555D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EC519C982F35B727000555D8 /* SDL2_ttf.framework in Embed Frameworks */,
+				EC519C952F35B715000555D8 /* SDL2_mixer.framework in Embed Frameworks */,
+				EC519C8E2F35B6F3000555D8 /* SDL2.framework in Embed Frameworks */,
+				EC519C922F35B707000555D8 /* SDL2_image.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC4C1F9B2F1F0816002D4633 /* game_engine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = game_engine; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC519C8C2F35B6F3000555D8 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = macSDL/SDL2/lib/SDL2.framework; sourceTree = "<group>"; };
+		EC519C902F35B707000555D8 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = macSDL/SDL2_image/lib/SDL2_image.framework; sourceTree = "<group>"; };
+		EC519C932F35B715000555D8 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = macSDL/SDL2_mixer/lib/SDL2_mixer.framework; sourceTree = "<group>"; };
+		EC519C962F35B727000555D8 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = macSDL/SDL2_ttf/lib/SDL2_ttf.framework; sourceTree = "<group>"; };
+		ECA3FD552F43C57500D02731 /* game_engine.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = game_engine.profdata; sourceTree = "<group>"; };
+		ECFEAD682F2861E400EEFDD8 /* game_engine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_engine.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ECA30AE72F4FF81500D02731 /* Exceptions for "thirdparty" folder in "game_engine" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				glm/glm/common.hpp,
+				glm/glm/detail/_features.hpp,
+				glm/glm/detail/_fixes.hpp,
+				glm/glm/detail/_noise.hpp,
+				glm/glm/detail/_swizzle_func.hpp,
+				glm/glm/detail/_swizzle.hpp,
+				glm/glm/detail/_vectorize.hpp,
+				glm/glm/detail/compute_common.hpp,
+				glm/glm/detail/compute_vector_relational.hpp,
+				glm/glm/detail/qualifier.hpp,
+				glm/glm/detail/setup.hpp,
+				glm/glm/detail/type_float.hpp,
+				glm/glm/detail/type_half.hpp,
+				glm/glm/detail/type_mat2x2.hpp,
+				glm/glm/detail/type_mat2x3.hpp,
+				glm/glm/detail/type_mat2x4.hpp,
+				glm/glm/detail/type_mat3x2.hpp,
+				glm/glm/detail/type_mat3x3.hpp,
+				glm/glm/detail/type_mat3x4.hpp,
+				glm/glm/detail/type_mat4x2.hpp,
+				glm/glm/detail/type_mat4x3.hpp,
+				glm/glm/detail/type_mat4x4.hpp,
+				glm/glm/detail/type_quat.hpp,
+				glm/glm/detail/type_vec1.hpp,
+				glm/glm/detail/type_vec2.hpp,
+				glm/glm/detail/type_vec3.hpp,
+				glm/glm/detail/type_vec4.hpp,
+				glm/glm/exponential.hpp,
+				glm/glm/ext.hpp,
+				glm/glm/ext/matrix_clip_space.hpp,
+				glm/glm/ext/matrix_common.hpp,
+				glm/glm/ext/matrix_double2x2_precision.hpp,
+				glm/glm/ext/matrix_double2x2.hpp,
+				glm/glm/ext/matrix_double2x3_precision.hpp,
+				glm/glm/ext/matrix_double2x3.hpp,
+				glm/glm/ext/matrix_double2x4_precision.hpp,
+				glm/glm/ext/matrix_double2x4.hpp,
+				glm/glm/ext/matrix_double3x2_precision.hpp,
+				glm/glm/ext/matrix_double3x2.hpp,
+				glm/glm/ext/matrix_double3x3_precision.hpp,
+				glm/glm/ext/matrix_double3x3.hpp,
+				glm/glm/ext/matrix_double3x4_precision.hpp,
+				glm/glm/ext/matrix_double3x4.hpp,
+				glm/glm/ext/matrix_double4x2_precision.hpp,
+				glm/glm/ext/matrix_double4x2.hpp,
+				glm/glm/ext/matrix_double4x3_precision.hpp,
+				glm/glm/ext/matrix_double4x3.hpp,
+				glm/glm/ext/matrix_double4x4_precision.hpp,
+				glm/glm/ext/matrix_double4x4.hpp,
+				glm/glm/ext/matrix_float2x2_precision.hpp,
+				glm/glm/ext/matrix_float2x2.hpp,
+				glm/glm/ext/matrix_float2x3_precision.hpp,
+				glm/glm/ext/matrix_float2x3.hpp,
+				glm/glm/ext/matrix_float2x4_precision.hpp,
+				glm/glm/ext/matrix_float2x4.hpp,
+				glm/glm/ext/matrix_float3x2_precision.hpp,
+				glm/glm/ext/matrix_float3x2.hpp,
+				glm/glm/ext/matrix_float3x3_precision.hpp,
+				glm/glm/ext/matrix_float3x3.hpp,
+				glm/glm/ext/matrix_float3x4_precision.hpp,
+				glm/glm/ext/matrix_float3x4.hpp,
+				glm/glm/ext/matrix_float4x2_precision.hpp,
+				glm/glm/ext/matrix_float4x2.hpp,
+				glm/glm/ext/matrix_float4x3_precision.hpp,
+				glm/glm/ext/matrix_float4x3.hpp,
+				glm/glm/ext/matrix_float4x4_precision.hpp,
+				glm/glm/ext/matrix_float4x4.hpp,
+				glm/glm/ext/matrix_int2x2_sized.hpp,
+				glm/glm/ext/matrix_int2x2.hpp,
+				glm/glm/ext/matrix_int2x3_sized.hpp,
+				glm/glm/ext/matrix_int2x3.hpp,
+				glm/glm/ext/matrix_int2x4_sized.hpp,
+				glm/glm/ext/matrix_int2x4.hpp,
+				glm/glm/ext/matrix_int3x2_sized.hpp,
+				glm/glm/ext/matrix_int3x2.hpp,
+				glm/glm/ext/matrix_int3x3_sized.hpp,
+				glm/glm/ext/matrix_int3x3.hpp,
+				glm/glm/ext/matrix_int3x4_sized.hpp,
+				glm/glm/ext/matrix_int3x4.hpp,
+				glm/glm/ext/matrix_int4x2_sized.hpp,
+				glm/glm/ext/matrix_int4x2.hpp,
+				glm/glm/ext/matrix_int4x3_sized.hpp,
+				glm/glm/ext/matrix_int4x3.hpp,
+				glm/glm/ext/matrix_int4x4_sized.hpp,
+				glm/glm/ext/matrix_int4x4.hpp,
+				glm/glm/ext/matrix_projection.hpp,
+				glm/glm/ext/matrix_relational.hpp,
+				glm/glm/ext/matrix_transform.hpp,
+				glm/glm/ext/matrix_uint2x2_sized.hpp,
+				glm/glm/ext/matrix_uint2x2.hpp,
+				glm/glm/ext/matrix_uint2x3_sized.hpp,
+				glm/glm/ext/matrix_uint2x3.hpp,
+				glm/glm/ext/matrix_uint2x4_sized.hpp,
+				glm/glm/ext/matrix_uint2x4.hpp,
+				glm/glm/ext/matrix_uint3x2_sized.hpp,
+				glm/glm/ext/matrix_uint3x2.hpp,
+				glm/glm/ext/matrix_uint3x3_sized.hpp,
+				glm/glm/ext/matrix_uint3x3.hpp,
+				glm/glm/ext/matrix_uint3x4_sized.hpp,
+				glm/glm/ext/matrix_uint3x4.hpp,
+				glm/glm/ext/matrix_uint4x2_sized.hpp,
+				glm/glm/ext/matrix_uint4x2.hpp,
+				glm/glm/ext/matrix_uint4x3_sized.hpp,
+				glm/glm/ext/matrix_uint4x3.hpp,
+				glm/glm/ext/matrix_uint4x4_sized.hpp,
+				glm/glm/ext/matrix_uint4x4.hpp,
+				glm/glm/ext/quaternion_common.hpp,
+				glm/glm/ext/quaternion_double_precision.hpp,
+				glm/glm/ext/quaternion_double.hpp,
+				glm/glm/ext/quaternion_exponential.hpp,
+				glm/glm/ext/quaternion_float_precision.hpp,
+				glm/glm/ext/quaternion_float.hpp,
+				glm/glm/ext/quaternion_geometric.hpp,
+				glm/glm/ext/quaternion_relational.hpp,
+				glm/glm/ext/quaternion_transform.hpp,
+				glm/glm/ext/quaternion_trigonometric.hpp,
+				glm/glm/ext/scalar_common.hpp,
+				glm/glm/ext/scalar_constants.hpp,
+				glm/glm/ext/scalar_int_sized.hpp,
+				glm/glm/ext/scalar_integer.hpp,
+				glm/glm/ext/scalar_packing.hpp,
+				glm/glm/ext/scalar_relational.hpp,
+				glm/glm/ext/scalar_uint_sized.hpp,
+				glm/glm/ext/scalar_ulp.hpp,
+				glm/glm/ext/vector_bool1_precision.hpp,
+				glm/glm/ext/vector_bool1.hpp,
+				glm/glm/ext/vector_bool2_precision.hpp,
+				glm/glm/ext/vector_bool2.hpp,
+				glm/glm/ext/vector_bool3_precision.hpp,
+				glm/glm/ext/vector_bool3.hpp,
+				glm/glm/ext/vector_bool4_precision.hpp,
+				glm/glm/ext/vector_bool4.hpp,
+				glm/glm/ext/vector_common.hpp,
+				glm/glm/ext/vector_double1_precision.hpp,
+				glm/glm/ext/vector_double1.hpp,
+				glm/glm/ext/vector_double2_precision.hpp,
+				glm/glm/ext/vector_double2.hpp,
+				glm/glm/ext/vector_double3_precision.hpp,
+				glm/glm/ext/vector_double3.hpp,
+				glm/glm/ext/vector_double4_precision.hpp,
+				glm/glm/ext/vector_double4.hpp,
+				glm/glm/ext/vector_float1_precision.hpp,
+				glm/glm/ext/vector_float1.hpp,
+				glm/glm/ext/vector_float2_precision.hpp,
+				glm/glm/ext/vector_float2.hpp,
+				glm/glm/ext/vector_float3_precision.hpp,
+				glm/glm/ext/vector_float3.hpp,
+				glm/glm/ext/vector_float4_precision.hpp,
+				glm/glm/ext/vector_float4.hpp,
+				glm/glm/ext/vector_int1_sized.hpp,
+				glm/glm/ext/vector_int1.hpp,
+				glm/glm/ext/vector_int2_sized.hpp,
+				glm/glm/ext/vector_int2.hpp,
+				glm/glm/ext/vector_int3_sized.hpp,
+				glm/glm/ext/vector_int3.hpp,
+				glm/glm/ext/vector_int4_sized.hpp,
+				glm/glm/ext/vector_int4.hpp,
+				glm/glm/ext/vector_integer.hpp,
+				glm/glm/ext/vector_packing.hpp,
+				glm/glm/ext/vector_relational.hpp,
+				glm/glm/ext/vector_uint1_sized.hpp,
+				glm/glm/ext/vector_uint1.hpp,
+				glm/glm/ext/vector_uint2_sized.hpp,
+				glm/glm/ext/vector_uint2.hpp,
+				glm/glm/ext/vector_uint3_sized.hpp,
+				glm/glm/ext/vector_uint3.hpp,
+				glm/glm/ext/vector_uint4_sized.hpp,
+				glm/glm/ext/vector_uint4.hpp,
+				glm/glm/ext/vector_ulp.hpp,
+				glm/glm/fwd.hpp,
+				glm/glm/geometric.hpp,
+				glm/glm/glm.hpp,
+				glm/glm/gtc/bitfield.hpp,
+				glm/glm/gtc/color_space.hpp,
+				glm/glm/gtc/constants.hpp,
+				glm/glm/gtc/epsilon.hpp,
+				glm/glm/gtc/integer.hpp,
+				glm/glm/gtc/matrix_access.hpp,
+				glm/glm/gtc/matrix_integer.hpp,
+				glm/glm/gtc/matrix_inverse.hpp,
+				glm/glm/gtc/matrix_transform.hpp,
+				glm/glm/gtc/noise.hpp,
+				glm/glm/gtc/packing.hpp,
+				glm/glm/gtc/quaternion.hpp,
+				glm/glm/gtc/random.hpp,
+				glm/glm/gtc/reciprocal.hpp,
+				glm/glm/gtc/round.hpp,
+				glm/glm/gtc/type_aligned.hpp,
+				glm/glm/gtc/type_precision.hpp,
+				glm/glm/gtc/type_ptr.hpp,
+				glm/glm/gtc/ulp.hpp,
+				glm/glm/gtc/vec1.hpp,
+				glm/glm/gtx/associated_min_max.hpp,
+				glm/glm/gtx/bit.hpp,
+				glm/glm/gtx/closest_point.hpp,
+				glm/glm/gtx/color_encoding.hpp,
+				glm/glm/gtx/color_space_YCoCg.hpp,
+				glm/glm/gtx/color_space.hpp,
+				glm/glm/gtx/common.hpp,
+				glm/glm/gtx/compatibility.hpp,
+				glm/glm/gtx/component_wise.hpp,
+				glm/glm/gtx/dual_quaternion.hpp,
+				glm/glm/gtx/easing.hpp,
+				glm/glm/gtx/euler_angles.hpp,
+				glm/glm/gtx/extend.hpp,
+				glm/glm/gtx/extended_min_max.hpp,
+				glm/glm/gtx/exterior_product.hpp,
+				glm/glm/gtx/fast_exponential.hpp,
+				glm/glm/gtx/fast_square_root.hpp,
+				glm/glm/gtx/fast_trigonometry.hpp,
+				glm/glm/gtx/functions.hpp,
+				glm/glm/gtx/gradient_paint.hpp,
+				glm/glm/gtx/handed_coordinate_space.hpp,
+				glm/glm/gtx/hash.hpp,
+				glm/glm/gtx/integer.hpp,
+				glm/glm/gtx/intersect.hpp,
+				glm/glm/gtx/io.hpp,
+				glm/glm/gtx/log_base.hpp,
+				glm/glm/gtx/matrix_cross_product.hpp,
+				glm/glm/gtx/matrix_decompose.hpp,
+				glm/glm/gtx/matrix_factorisation.hpp,
+				glm/glm/gtx/matrix_interpolation.hpp,
+				glm/glm/gtx/matrix_major_storage.hpp,
+				glm/glm/gtx/matrix_operation.hpp,
+				glm/glm/gtx/matrix_query.hpp,
+				glm/glm/gtx/matrix_transform_2d.hpp,
+				glm/glm/gtx/mixed_product.hpp,
+				glm/glm/gtx/norm.hpp,
+				glm/glm/gtx/normal.hpp,
+				glm/glm/gtx/normalize_dot.hpp,
+				glm/glm/gtx/number_precision.hpp,
+				glm/glm/gtx/optimum_pow.hpp,
+				glm/glm/gtx/orthonormalize.hpp,
+				glm/glm/gtx/perpendicular.hpp,
+				glm/glm/gtx/polar_coordinates.hpp,
+				glm/glm/gtx/projection.hpp,
+				glm/glm/gtx/quaternion.hpp,
+				glm/glm/gtx/range.hpp,
+				glm/glm/gtx/raw_data.hpp,
+				glm/glm/gtx/rotate_normalized_axis.hpp,
+				glm/glm/gtx/rotate_vector.hpp,
+				glm/glm/gtx/scalar_multiplication.hpp,
+				glm/glm/gtx/scalar_relational.hpp,
+				glm/glm/gtx/spline.hpp,
+				glm/glm/gtx/std_based_type.hpp,
+				glm/glm/gtx/string_cast.hpp,
+				glm/glm/gtx/texture.hpp,
+				glm/glm/gtx/transform.hpp,
+				glm/glm/gtx/transform2.hpp,
+				glm/glm/gtx/type_aligned.hpp,
+				glm/glm/gtx/type_trait.hpp,
+				glm/glm/gtx/vec_swizzle.hpp,
+				glm/glm/gtx/vector_angle.hpp,
+				glm/glm/gtx/vector_query.hpp,
+				glm/glm/gtx/wrap.hpp,
+				glm/glm/integer.hpp,
+				glm/glm/mat2x2.hpp,
+				glm/glm/mat2x3.hpp,
+				glm/glm/mat2x4.hpp,
+				glm/glm/mat3x2.hpp,
+				glm/glm/mat3x3.hpp,
+				glm/glm/mat3x4.hpp,
+				glm/glm/mat4x2.hpp,
+				glm/glm/mat4x3.hpp,
+				glm/glm/mat4x4.hpp,
+				glm/glm/matrix.hpp,
+				glm/glm/packing.hpp,
+				glm/glm/simd/common.h,
+				glm/glm/simd/exponential.h,
+				glm/glm/simd/geometric.h,
+				glm/glm/simd/integer.h,
+				glm/glm/simd/matrix.h,
+				glm/glm/simd/neon.h,
+				glm/glm/simd/packing.h,
+				glm/glm/simd/platform.h,
+				glm/glm/simd/trigonometric.h,
+				glm/glm/simd/vector_relational.h,
+				glm/glm/trigonometric.hpp,
+				glm/glm/vec2.hpp,
+				glm/glm/vec3.hpp,
+				glm/glm/vec4.hpp,
+				glm/glm/vector_relational.hpp,
+				lua/Makefile,
+				rapidjson/allocators.h,
+				rapidjson/document.h,
+				rapidjson/encodedstream.h,
+				rapidjson/encodings.h,
+				rapidjson/error/en.h,
+				rapidjson/error/error.h,
+				rapidjson/filereadstream.h,
+				rapidjson/filewritestream.h,
+				rapidjson/fwd.h,
+				rapidjson/internal/biginteger.h,
+				rapidjson/internal/diyfp.h,
+				rapidjson/internal/dtoa.h,
+				rapidjson/internal/ieee754.h,
+				rapidjson/internal/itoa.h,
+				rapidjson/internal/meta.h,
+				rapidjson/internal/pow10.h,
+				rapidjson/internal/regex.h,
+				rapidjson/internal/stack.h,
+				rapidjson/internal/strfunc.h,
+				rapidjson/internal/strtod.h,
+				rapidjson/internal/swap.h,
+				rapidjson/istreamwrapper.h,
+				rapidjson/memorybuffer.h,
+				rapidjson/memorystream.h,
+				rapidjson/msinttypes/inttypes.h,
+				rapidjson/msinttypes/stdint.h,
+				rapidjson/ostreamwrapper.h,
+				rapidjson/pointer.h,
+				rapidjson/prettywriter.h,
+				rapidjson/rapidjson.h,
+				rapidjson/reader.h,
+				rapidjson/schema.h,
+				rapidjson/stream.h,
+				rapidjson/stringbuffer.h,
+				rapidjson/writer.h,
+			);
+			target = EC4C1F9A2F1F0816002D4633 /* game_engine */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EC519EE82F364718000555D8 /* headers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = headers;
+			sourceTree = "<group>";
+		};
+		EC519EE92F3647EA000555D8 /* thirdparty */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ECA30AE72F4FF81500D02731 /* Exceptions for "thirdparty" folder in "game_engine" target */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		EC51A5532F3D7441000555D8 /* resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4C1F982F1F0816002D4633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC519C972F35B727000555D8 /* SDL2_ttf.framework in Frameworks */,
+				EC519C942F35B715000555D8 /* SDL2_mixer.framework in Frameworks */,
+				EC519C8D2F35B6F3000555D8 /* SDL2.framework in Frameworks */,
+				EC519C912F35B707000555D8 /* SDL2_image.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4C1F922F1F0816002D4633 = {
+			isa = PBXGroup;
+			children = (
+				EC519EE92F3647EA000555D8 /* thirdparty */,
+				ECFEAD682F2861E400EEFDD8 /* game_engine.cpp */,
+				EC51A5532F3D7441000555D8 /* resources */,
+				EC519EE82F364718000555D8 /* headers */,
+				EC4C1F9C2F1F0816002D4633 /* Products */,
+				EC5810FA2F34052D000791D8 /* Frameworks */,
+				ECA3FD562F43C57500D02731 /* OptimizationProfiles */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4C1F9C2F1F0816002D4633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C1F9B2F1F0816002D4633 /* game_engine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5810FA2F34052D000791D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC519C962F35B727000555D8 /* SDL2_ttf.framework */,
+				EC519C932F35B715000555D8 /* SDL2_mixer.framework */,
+				EC519C902F35B707000555D8 /* SDL2_image.framework */,
+				EC519C8C2F35B6F3000555D8 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA3FD562F43C57500D02731 /* OptimizationProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3FD552F43C57500D02731 /* game_engine.profdata */,
+			);
+			path = OptimizationProfiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ECA30AE62F4FF81500D02731 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC4C1F9A2F1F0816002D4633 /* game_engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4C1FA22F1F0816002D4633 /* Build configuration list for PBXNativeTarget "game_engine" */;
+			buildPhases = (
+				EC4C1F982F1F0816002D4633 /* Frameworks */,
+				EC4C1F992F1F0816002D4633 /* Copy Files */,
+				EC519C8F2F35B6F3000555D8 /* Embed Frameworks */,
+				ECA30AE62F4FF81500D02731 /* Headers */,
+				ECA30AF82F4FF84F00D02731 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EC519EE82F364718000555D8 /* headers */,
+				EC519EE92F3647EA000555D8 /* thirdparty */,
+				EC51A5532F3D7441000555D8 /* resources */,
+			);
+			name = game_engine;
+			packageProductDependencies = (
+			);
+			productName = game_engine;
+			productReference = EC4C1F9B2F1F0816002D4633 /* game_engine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4C1F932F1F0816002D4633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					EC4C1F9A2F1F0816002D4633 = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
+				};
+			};
+			buildConfigurationList = EC4C1F962F1F0816002D4633 /* Build configuration list for PBXProject "game_engine" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4C1F922F1F0816002D4633;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC4C1F9C2F1F0816002D4633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4C1F9A2F1F0816002D4633 /* game_engine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA30AF82F4FF84F00D02731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA30B422F4FF8C800D02731 /* game_engine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC4C1FA02F1F0816002D4633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NVD7ATZ94K;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC4C1FA12F1F0816002D4633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NVD7ATZ94K;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC4C1FA32F1F0816002D4633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVD7ATZ94K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/macSDL/SDL2/lib",
+					"$(PROJECT_DIR)/macSDL/SDL2_image/lib",
+					"$(PROJECT_DIR)/macSDL/SDL2_mixer/lib",
+					"$(PROJECT_DIR)/macSDL/SDL2_ttf/lib",
+				);
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/",
+					"$(PROJECT_DIR)/macSDL/SDL2",
+					"$(PROJECT_DIR)/macSDL/SDL2_ttf",
+					"$(PROJECT_DIR)/macSDL/SDL2_mixer",
+					"$(PROJECT_DIR)/macSDL/SDL2_image",
+					"$(PROJECT_DIR)/thirdparty/",
+					"$(PROJECT_DIR)/headers",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/macSDL/SDL2/lib/",
+					"$(PROJECT_DIR)/macSDL/SDL2_mixer/lib/",
+					"$(PROJECT_DIR)/macSDL/SDL2_image/lib/",
+					"$(PROJECT_DIR)/macSDL/SDL2_ttf/lib/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = YES;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = YES;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		EC4C1FA42F1F0816002D4633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVD7ATZ94K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/macSDL/SDL2/lib",
+					"$(PROJECT_DIR)/macSDL/SDL2_image/lib",
+					"$(PROJECT_DIR)/macSDL/SDL2_mixer/lib",
+					"$(PROJECT_DIR)/macSDL/SDL2_ttf/lib",
+				);
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/",
+					"$(PROJECT_DIR)/macSDL/SDL2",
+					"$(PROJECT_DIR)/macSDL/SDL2_ttf",
+					"$(PROJECT_DIR)/macSDL/SDL2_mixer",
+					"$(PROJECT_DIR)/macSDL/SDL2_image",
+					"$(PROJECT_DIR)/thirdparty/",
+					"$(PROJECT_DIR)/headers",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/macSDL/SDL2/lib/",
+					"$(PROJECT_DIR)/macSDL/SDL2_mixer/lib/",
+					"$(PROJECT_DIR)/macSDL/SDL2_image/lib/",
+					"$(PROJECT_DIR)/macSDL/SDL2_ttf/lib/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4C1F962F1F0816002D4633 /* Build configuration list for PBXProject "game_engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4C1FA02F1F0816002D4633 /* Debug */,
+				EC4C1FA12F1F0816002D4633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4C1FA22F1F0816002D4633 /* Build configuration list for PBXNativeTarget "game_engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4C1FA32F1F0816002D4633 /* Debug */,
+				EC4C1FA42F1F0816002D4633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4C1F932F1F0816002D4633 /* Project object */;
+}

@@ -1,0 +1,12 @@
+{
+    "actors": [
+        {
+            "name": "ParticleController",
+            "components": {
+                "ParticleController": {
+                    "type": "ParticleController"
+                }
+            }
+        }
+    ]
+}

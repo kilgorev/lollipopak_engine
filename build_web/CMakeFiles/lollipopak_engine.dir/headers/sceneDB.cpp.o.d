@@ -1,0 +1,28 @@
+CMakeFiles/lollipopak_engine.dir/headers/sceneDB.cpp.o: \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/headers/sceneDB.cpp \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/abi.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/compiler.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/platform.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/availability.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/language.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/stddef.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_header_macro.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_ptrdiff_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_size_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_wchar_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_null.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_nullptr_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_max_align_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_offsetof.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/stdint.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/features.h

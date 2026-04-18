@@ -1,0 +1,1 @@
+/Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/em++ -O3 -DNDEBUG -sUSE_SDL=2 -sUSE_SDL_IMAGE=2 -sUSE_SDL_MIXER=2 -sUSE_SDL_TTF=2 -sALLOW_MEMORY_GROWTH=1 -sWASM=1 --preload-file=/Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/resources@/resources @CMakeFiles/lollipopak_engine.dir/objects1.rsp -o lollipopak_engine.html

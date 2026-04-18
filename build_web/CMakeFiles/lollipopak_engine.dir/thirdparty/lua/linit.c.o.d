@@ -1,0 +1,35 @@
+CMakeFiles/lollipopak_engine.dir/thirdparty/lua/linit.c.o: \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/thirdparty/lua/linit.c \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/thirdparty/lua/lprefix.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/stddef.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_header_macro.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_ptrdiff_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_size_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_wchar_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_null.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_max_align_t.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stddef_offsetof.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/thirdparty/lua/lua.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/stdarg.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stdarg_header_macro.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stdarg___gnuc_va_list.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stdarg_va_list.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stdarg_va_arg.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stdarg___va_copy.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/__stdarg_va_copy.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/thirdparty/lua/luaconf.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/limits.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/lib/clang/23/include/stdint.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/thirdparty/lua/lualib.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/thirdparty/lua/lauxlib.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /Users/torikilgore/eecs498/game_engine_git/game_engine_kilgorev/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h
